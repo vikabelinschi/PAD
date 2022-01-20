@@ -26,7 +26,7 @@ public class AppController {
 
 	@DeleteMapping("/remove_like/{user_id}/{video_id}")
 	public String removeLike(Long video_id, Long user_id) {
-        likeRepo.deleteLike(video_id, user_id);
+        service.removeLike(video_id,user_id);
 			return "/{video_id}";
 	}
 

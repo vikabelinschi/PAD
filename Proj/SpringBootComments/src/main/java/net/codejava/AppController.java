@@ -24,8 +24,8 @@ public class AppController {
 
 	@DeleteMapping("/remove_comment/{user_id}/{video_id}")
 	public String removeComment(Long video_id, Long user_id) {
-        commentRepo.deleteComment(video_id, user_id);
-			return "/{video_id}";
+		service.removeComment(video_id,user_id);
+		return "/{video_id}";
 	}
 
 	@PostMapping("/add_comment")

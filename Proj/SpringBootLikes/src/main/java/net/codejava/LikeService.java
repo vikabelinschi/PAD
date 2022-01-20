@@ -19,4 +19,10 @@ public class LikeService {
         return Integer.valueOf(likes_nr);
     }
 
+    public String removeLike(Long video_id, Long user_id) {
+        Like deletedLike = likeRepo.deleteLike(video_id,user_id);
+        likeRepo.deleteById(deletedLike.getId());
+        return "removed_like";
+    }
+
 }

@@ -18,4 +18,9 @@ public class CommentService {
         return comments;
     }
 
+    public String removeComment(Long video_id, Long user_id) {
+        Comment deletedComment = commentRepo.deleteComment(video_id,user_id);
+        commentRepo.deleteById(deletedComment.getId());
+        return "removed_comment";
+    }
 }
