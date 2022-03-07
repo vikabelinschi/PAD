@@ -12,10 +12,11 @@ public class AppController {
 
 	@Autowired
 	private LikeService service;
+	@Autowired
 	private  LikeRepository likeRepo;
 	
 	@GetMapping("/{video_id}")
-	public Integer nrOfLikes(Long video_id) {
+	public Integer nrOfLikes(@PathVariable Long video_id) {
 		Integer nrOfLikes = service.showVideoLikes(video_id);
 
 		return nrOfLikes;
@@ -24,7 +25,7 @@ public class AppController {
 
 
 	@DeleteMapping("/remove_like/{user_id}/{video_id}")
-	public String removeLike(Long video_id, Long user_id) {
+	public String removeLike(@PathVariable Long video_id,@PathVariable Long user_id) {
         service.removeLike(video_id,user_id);
 			return "/{video_id}";
 	}

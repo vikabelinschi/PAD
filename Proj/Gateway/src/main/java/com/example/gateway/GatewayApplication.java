@@ -19,6 +19,7 @@ public class GatewayApplication {
 				.routes()
 				.route("login", routeSpec -> routeSpec
 						.path("/login")
+						.filters(gatewayFilterSpec -> gatewayFilterSpec.setPath("/login"))
 						.uri("http://localhost:9000")
 				)
 				.route("register", routeSpec -> routeSpec
@@ -26,14 +27,15 @@ public class GatewayApplication {
 						.filters(gatewayFilterSpec -> gatewayFilterSpec.setPath("/register"))
 						.uri("http://localhost:9000/")
 				)
-				.route("videos", routeSpec -> routeSpec
+				.route("videos", r -> r
 						.path("/videos")
-						.uri("http://localhost:8080/")
+						.filters(f -> f.stripPrefix(1))
+						.uri("http://localhost:8080")
 				)
 				.route("video", routeSpec -> routeSpec
 						.path("/{video_id}")
-						.filters(gatewayFilterSpec -> gatewayFilterSpec.setPath("/{video_id}"))
-						.uri("http://localhost:8080/")
+						.filters(f -> f.setPath("/{video_id}"))
+						.uri("http://localhost:8080")
 				)
 				.route("video_comments", routeSpec -> routeSpec
 						.path("/{video_id}/comments")
@@ -51,11 +53,9 @@ public class GatewayApplication {
 								gatewayFilterSpec.setPath("/add_Video"))
 						.uri("http://localhost:8080/")
 				)
-				.route("comment", routeSpec -> routeSpec
-						.path("/addComment")
-						.filters(gatewayFilterSpec ->
-								gatewayFilterSpec.setPath("/add_comment"))
-						.uri("http://localhost:8082/"))
+				.route("add_comment", routeSpec -> routeSpec
+						.path("/add_comment")
+						.uri("http://localhost:8082/add_comment"))
 				.route("like", routeSpec -> routeSpec
 						.path("/like")
 						.filters(gatewayFilterSpec ->
