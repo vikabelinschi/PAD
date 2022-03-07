@@ -5,31 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c071523-1f3b-44bd-998b-317bfe4eb404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/JwtRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/CacheDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cache/src/main/java/com/example/cache/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cache/src/main/java/com/example/cache/CacheMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cache/src/main/java/com/example/cache/DeleteThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cache/src/main/java/com/example/cache/RequestEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootComments/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootComments/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootComments/src/main/java/net/codejava/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootComments/src/main/java/net/codejava/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootLikes/src/main/java/net/codejava/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootLikes/src/main/java/net/codejava/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRegistrationLogin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootVideos/src/main/java/net/codejava/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVideos/src/main/java/net/codejava/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootVideos/src/main/java/net/codejava/CustomVideoDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVideos/src/main/java/net/codejava/CustomVideoDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootVideos/src/main/java/net/codejava/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVideos/src/main/java/net/codejava/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootVideos/src/main/java/net/codejava/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootVideos/src/main/java/net/codejava/VideoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
