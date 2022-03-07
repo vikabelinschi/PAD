@@ -19,12 +19,12 @@ public class GatewayApplication {
 				.routes()
 				.route("login", routeSpec -> routeSpec
 						.path("/login")
-						.filters(gatewayFilterSpec -> gatewayFilterSpec.setPath("/login"))
+						.filters(gatewayFilterSpec -> gatewayFilterSpec.setPath("/authenticate"))
 						.uri("http://localhost:9000")
 				)
 				.route("register", routeSpec -> routeSpec
 						.path("/register")
-						.filters(gatewayFilterSpec -> gatewayFilterSpec.setPath("/register"))
+						.filters(gatewayFilterSpec -> gatewayFilterSpec.setPath("/process_register"))
 						.uri("http://localhost:9000/")
 				)
 				.route("videos", r -> r
