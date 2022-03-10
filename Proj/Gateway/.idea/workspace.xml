@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c071523-1f3b-44bd-998b-317bfe4eb404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/CacheDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cache/src/main/java/com/example/cache/CacheController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cache/src/main/java/com/example/cache/CacheMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cache/src/main/java/com/example/cache/DeleteThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cache/src/main/java/com/example/cache/RequestEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRegistrationLogin/src/main/java/net/codejava/AppController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
